@@ -1,0 +1,127 @@
+body {
+    background-image: url(stars.png) ;
+    background-size: 10cm;
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;
+
+    margin: 0;
+}
+
+h1 {
+    font-size: 6vw;
+    text-decoration: underline double rgb(253, 21, 110);
+}
+
+h2 {
+    transform: translateY(-3vw);
+    font-size: 3vw;
+    text-decoration: underline solid rgb(253, 21, 110);
+}
+
+h3 {
+    transform:  translateY(-37.5vw);
+    font-size: 10vw;
+}
+
+.topic_img {
+    width: 100%;
+    align-content: center;
+    filter: brightness(0.5);
+}
+
+.topic_img_border {
+    margin: 0% 15% 0% 15%;
+    padding: 0.3vw 0.3vw 0.1vw 0.3vw;
+    background-color: rgb(187, 1, 72);
+    border: 0.5vw solid rgb(255, 13, 106);
+}
+
+
+
+.boxes {
+    padding: 0vw 12vw 10vh 12vw;
+    transform: translateY(-25vw);
+}
+
+.box {
+    margin-bottom: 10vh;
+    background-color: rgba(0, 204, 255, 0.5);
+    width: 15vh;
+    height: 15vh;
+}
+
+.show_box {
+    background-color: rgb(253, 21, 110);
+    width: 15vh;
+    height: 15vh;
+    transform: translateY(-16vh) scale(1.1);
+    padding: 1vh 1vh 1vh 1vh;
+
+    transition: 0.4s;
+}
+
+.box:hover .show_box {
+    transform: translateY(-16vh) scale(1.2);
+}
+
+.move_box {
+    background-color: rgb(253, 96, 143);
+    width: 7vh;
+    height: 15vh;
+
+    text-align: center;
+    align-content: center;
+    font-size: 1.5vh;
+
+    transition: 1.3s;
+}
+
+.box:hover .move_box {
+    width: 50vw;
+    transform: translate(5vh);
+    font-size: 3vw;
+    padding-left: 12vh;
+}
+
+.box_img {
+    width: 14vh;
+    height: 14vh;
+    border: 0.6vh solid rgb(187, 1, 72);
+    background-color: rgb(149, 157, 173);
+}
+
+
+
+.header {
+    background-color: rgb(253, 21, 110);
+    padding: 1vh 12vw 1vh 12vw;
+
+    border-bottom: 0.2cm solid rgb(207, 4, 82);
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.header_links {
+    font-size: 4vh;
+    text-decoration: none;
+    color: azure;
+}
+
+.header_links:hover {
+    text-decoration-line: underline;
+}
+
+.header_logo {
+    font-size: 4vh;
+    font-weight: 550;
+}
+
+.logo {
+    height: 4vh;
+    transform: translateY(0.6vh) scale(1.4);
+}
